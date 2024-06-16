@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+#header{
+    text-align: center;
+}
+#coltop img{
+    width: 250px;
+}
+#colbottom{
+    display: flex;
+    justify-content: center;
+}
+#colbottom a{
+    width: 15%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.banner{
+    text-align: center;
+    width: 100%;
+}
+#about{
+    display: flex;
+    justify-content: center;
+}
+#about img{
+    border-radius: 30%;
+}
+#about p{
+    width: 20%;
+    margin-top: 200px;
+    margin-right: 40px;
+}
+#services{
+    display: flex;
+    justify-content: center;
+}
+.services_item img{
+    border-radius: 20%;
+    height: 250px;
+}
+.services_item{
+    text-align: center;
+    width: 30%;
+}
+.services_item a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: black;
+    width: 150px;
+    font-weight: bold;
+    top: 0px;
+    height: 25px;
+    border-radius: 60px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+}
+#right-ft, #center-ft, #left-ft{
+    width: 33%;
+}
+#right-ft, #center-ft{
+    text-align: justify;
+}
+#right-ft ul, #center-ft ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#right-ft ul li a, #center-ft ul li a{
+    text-decoration: none;
+    font-size: 17px;
+}
+#right-ft ul li, #center-ft ul li{
+    margin-top: 15px;
+}
+#left-ft img{
+    width: 60%;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color: rgb(234, 58, 58);
+}
+.product_gp_items1{
+    display: flex;
+    justify-content: center;
+}
+.product_gp_items2{
+    display: flex;
+    justify-content: center;
+}
+.product_gp1_item{
+    display: inline-block;
+    width: 50%;
+}
+.product_gp1_item img{
+    width: 90%;
+    border-radius: 12%;
+}
+.product_gp2_item{
+    display: inline-block;
+    width: 30%;
+}
+.product_gp2_item img{
+    width: 90%;
+    border-radius: 12%;
+}
+.fmspr_items{
+    display: flex;
+    justify-content: center;
+}
+.fmspr_item{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px black;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 10%;
+    background-color: antiquewhite;
+}
+.fmspr_item h4, .fmspr_item h3{
+    color: black;
+}
+.fmspr_item img{
+    width: 200px;
+    height: auto;
+    border-radius: 12%;
+}
+.container{
+    width: 100%;
+}
+.content{
+    margin: 0 40px;
+}
+.content p{
+    font-weight: bold;
+}
